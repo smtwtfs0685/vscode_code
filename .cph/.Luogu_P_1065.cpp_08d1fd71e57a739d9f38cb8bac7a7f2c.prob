@@ -1,0 +1,1 @@
+{"name":"Luogu - P1065","url":"https://www.luogu.com.cn/problem/P1065","memoryLimit":524288,"timeLimit":1000,"tests":[{"id":1761021309698,"input":"2 3\n1 1 2 3 3 2\n1 2 \n1 2 \n2 1\n3 2 \n2 5 \n2 4\n","output":"10"}],"group":"luogu","srcPath":"f:\\vs test\\Luogu_P_1065.cpp"}

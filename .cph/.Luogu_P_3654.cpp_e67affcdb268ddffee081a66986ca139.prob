@@ -1,0 +1,1 @@
+{"name":"Luogu - P3654","url":"https://www.luogu.com.cn/problem/P3654","memoryLimit":128000,"timeLimit":1000,"tests":[{"id":1761484680902,"input":"5 5 2\n.###.\n##.#.\n..#..\n#..#.\n#.###\n","output":"8"}],"group":"luogu","srcPath":"f:\\vs test\\Luogu_P_3654.cpp"}

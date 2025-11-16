@@ -1,0 +1,1 @@
+{"name":"Luogu - P1781","url":"https://www.luogu.com.cn/problem/P1781","memoryLimit":128000,"timeLimit":1000,"tests":[{"id":1761069408873,"input":"5\n98765\n12365\n87954\n1022356\n985678\n","output":"4\n1022356"}],"group":"luogu","srcPath":"f:\\vs test\\Luogu_P_1781.cpp"}

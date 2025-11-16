@@ -1,0 +1,1 @@
+{"name":"Luogu - P1320","url":"https://www.luogu.com.cn/problem/P1320","memoryLimit":524288,"timeLimit":1000,"tests":[{"id":1760461716722,"input":"0001000\n0001000\n0001111\n0001000\n0001000\n0001000\n1111111\n","output":"7 3 1 6 1 6 4 3 1 6 1 6 1 3 7"}],"group":"luogu","srcPath":"f:\\vs test\\Luogu_P_1320.cpp"}

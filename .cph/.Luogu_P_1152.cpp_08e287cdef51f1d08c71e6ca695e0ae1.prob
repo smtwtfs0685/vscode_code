@@ -1,0 +1,1 @@
+{"name":"Luogu - P1152","url":"https://www.luogu.com.cn/problem/P1152","memoryLimit":128000,"timeLimit":1000,"tests":[{"input":"4 1 4 2 3\n","output":"Jolly\n","id":1761210675967},{"id":1761210675968,"input":"5 1 4 2 -1 6","output":"Not jolly"}],"group":"luogu","srcPath":"f:\\vs test\\Luogu_P_1152.cpp"}

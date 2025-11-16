@@ -1,0 +1,1 @@
+{"name":"Luogu - P1080","url":"https://www.luogu.com.cn/problem/P1080","memoryLimit":128000,"timeLimit":1000,"tests":[{"input":"3 \n1 1 \n2 3 \n7 4 \n4 6 ","output":"2","id":1762444310574}],"group":"luogu","srcPath":"f:\\vs test\\Luogu_P_1080.cpp"}

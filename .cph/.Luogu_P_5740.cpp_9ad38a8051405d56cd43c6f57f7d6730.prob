@@ -1,0 +1,1 @@
+{"name":"Luogu - P5740","url":"https://www.luogu.com.cn/problem/P5740","memoryLimit":131072,"timeLimit":1000,"tests":[{"id":1760633591635,"input":"3\nsenpai 114 51 4\nlxl 114 10 23\nfafa 51 42 60","output":"senpai 114 51 4"}],"group":"luogu","srcPath":"f:\\vs test\\Luogu_P_5740.cpp"}

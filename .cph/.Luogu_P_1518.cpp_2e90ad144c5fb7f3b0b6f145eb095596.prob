@@ -1,0 +1,1 @@
+{"name":"Luogu - P1518","url":"https://www.luogu.com.cn/problem/P1518","memoryLimit":128000,"timeLimit":1000,"tests":[{"id":1760873637904,"input":"*...*.....\n......*...\n...*...*..\n..........\n...*.F....\n*.....*...\n...*......\n..C......*\n...*.*....\n.*.*......","output":"49"}],"group":"luogu","srcPath":"f:\\vs test\\Luogu_P_1518.cpp"}

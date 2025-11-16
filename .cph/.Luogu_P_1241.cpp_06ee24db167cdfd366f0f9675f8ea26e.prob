@@ -1,0 +1,1 @@
+{"name":"Luogu - P1241","url":"https://www.luogu.com.cn/problem/P1241","memoryLimit":131072,"timeLimit":1000,"tests":[{"input":"([()\n","output":"()[]()\n","id":1762419488493},{"id":1762419488494,"input":"([)","output":"()[]()"}],"group":"luogu","srcPath":"f:\\vs test\\Luogu_P_1241.cpp"}

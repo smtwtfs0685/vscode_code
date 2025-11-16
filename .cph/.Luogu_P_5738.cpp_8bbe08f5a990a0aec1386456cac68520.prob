@@ -1,0 +1,1 @@
+{"name":"Luogu - P5738","url":"https://www.luogu.com.cn/problem/P5738","memoryLimit":128000,"timeLimit":1000,"tests":[{"id":1760604391825,"input":"7 6\n4 7 2 6 10 7\n0 5 0 10 3 10\n2 6 8 4 3 6\n6 3 6 7 5 8\n5 9 3 3 8 1\n5 9 9 3 2 0\n5 8 0 4 1 10\n","output":"6.00"}],"group":"luogu","srcPath":"f:\\vs test\\Luogu_P_5738.cpp"}

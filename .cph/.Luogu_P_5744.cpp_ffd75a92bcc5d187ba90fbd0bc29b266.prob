@@ -1,0 +1,1 @@
+{"name":"Luogu - P5744","url":"https://www.luogu.com.cn/problem/P5744","memoryLimit":128000,"timeLimit":1000,"tests":[{"input":"3\nkkksc03 24 0\nchen_zhe 14 400\nnzhtl1477 18 590","output":"kkksc03 25 0\nchen_zhe 15 480\nnzhtl1477 19 600","id":1760755319949}],"group":"luogu","srcPath":"f:\\vs test\\Luogu_P_5744.cpp"}
