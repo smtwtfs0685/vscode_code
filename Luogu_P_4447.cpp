@@ -13,8 +13,6 @@ int main(){
         if(a[i] == a[i+1]) now = 0 ;
         else if(a[i] + 1 != a[i+1]) now = 0 ;
 
-        if(a[i] + 1 == a[i+1]){
-            
-        }
+        
     }
 }
