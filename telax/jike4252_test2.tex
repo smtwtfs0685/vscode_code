@@ -1,0 +1,227 @@
+\documentclass[12pt,a4paper]{ctexart}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{left=2.8cm,right=2.8cm,top=2.5cm,bottom=2.5cm}
+
+\begin{document}
+
+\begin{center}
+    \zihao{3}\heiti 专业422X黄子隽202544011213作业二
+\end{center}
+
+\vspace{1em}
+
+\noindent\textbf{班级：}计科4252
+
+\noindent\textbf{姓名：}黄子隽
+
+\noindent\textbf{学号：}202544011213
+
+\vspace{1em}
+
+\noindent\textbf{一、用等式置换（代入）法证明 $(A-B)\cup B=A\cup B$。}
+
+\vspace{0.5em}
+
+\noindent
+证明：因为
+\[
+A-B=A\cap B^c
+\]
+所以
+\[
+(A-B)\cup B=(A\cap B^c)\cup B
+\]
+由分配律得
+\[
+(A\cap B^c)\cup B=(A\cup B)\cap(B^c\cup B)
+\]
+又因为
+\[
+B^c\cup B=U
+\]
+所以
+\[
+(A\cup B)\cap U=A\cup B
+\]
+因此
+\[
+(A-B)\cup B=A\cup B
+\]
+故原式成立。
+
+\vspace{1em}
+
+\noindent\textbf{二、设 $A=\{0,1,2,3\}$，$R$ 是 $A$ 上的关系，且}
+\[
+R=\{(0,0),(0,3),(2,0),(2,1),(2,3),(3,2)\}
+\]
+\noindent\textbf{给出 $R$ 的关系矩阵和关系图。}
+
+\vspace{0.5em}
+
+\noindent
+（1）关系矩阵
+
+按元素顺序 $0,1,2,3$ 排列，得
+\[
+M_R=
+\begin{pmatrix}
+1 & 0 & 0 & 1\\
+0 & 0 & 0 & 0\\
+1 & 1 & 0 & 1\\
+0 & 0 & 1 & 0
+\end{pmatrix}
+\]
+
+\vspace{0.5em}
+
+\noindent
+（2）关系图
+
+顶点为：$0,1,2,3$
+
+有向边为：
+\[
+0\to0,\quad 0\to3,\quad 2\to0,\quad 2\to1,\quad 2\to3,\quad 3\to2
+\]
+
+\vspace{1em}
+
+\noindent\textbf{三、设}
+\[
+A=\{1,2,3\},\quad
+R=\{(x,y)\mid x,y\in A,\ x+2y\le 6\},
+\]
+\[
+S=\{(1,2),(1,3),(2,2)\}
+\]
+
+\noindent
+求：（1）$R$ 的集合表达式；（2）$R^{-1}$；（3）$\mathrm{dom}\,R,\ \mathrm{ran}\,R,\ \mathrm{fld}\,R$；（4）$R\circ S,\ R^3$。
+
+\vspace{0.5em}
+
+\noindent
+解：
+
+\noindent
+（1）求 $R$ 的集合表达式
+
+由条件 $x+2y\le 6$，分类讨论：
+
+当 $y=1$ 时，
+\[
+x+2\le 6 \Rightarrow x\le 4
+\]
+因为 $x\in\{1,2,3\}$，所以得
+\[
+(1,1),(2,1),(3,1)
+\]
+
+当 $y=2$ 时，
+\[
+x+4\le 6 \Rightarrow x\le 2
+\]
+所以得
+\[
+(1,2),(2,2)
+\]
+
+当 $y=3$ 时，
+\[
+x+6\le 6 \Rightarrow x\le 0
+\]
+无解。
+
+所以
+\[
+R=\{(1,1),(2,1),(3,1),(1,2),(2,2)\}
+\]
+
+\vspace{0.5em}
+
+\noindent
+（2）求 $R^{-1}$
+
+将 $R$ 中每个有序对前后交换，得
+\[
+R^{-1}=\{(1,1),(1,2),(1,3),(2,1),(2,2)\}
+\]
+
+\vspace{0.5em}
+
+\noindent
+（3）求 $\mathrm{dom}\,R,\ \mathrm{ran}\,R,\ \mathrm{fld}\,R$
+
+由
+\[
+R=\{(1,1),(2,1),(3,1),(1,2),(2,2)\}
+\]
+可得
+\[
+\mathrm{dom}\,R=\{1,2,3\}
+\]
+\[
+\mathrm{ran}\,R=\{1,2\}
+\]
+\[
+\mathrm{fld}\,R=\mathrm{dom}\,R\cup \mathrm{ran}\,R=\{1,2,3\}
+\]
+
+\vspace{0.5em}
+
+\noindent
+（4）求 $R\circ S,\ R^3$
+
+由定义
+\[
+R\circ S=\{(x,z)\mid \exists y,\ (x,y)\in S,\ (y,z)\in R\}
+\]
+
+已知
+\[
+S=\{(1,2),(1,3),(2,2)\}
+\]
+
+由 $(1,2)\in S$，且 $R$ 中有 $(2,1),(2,2)$，得
+\[
+(1,1),(1,2)
+\]
+
+由 $(1,3)\in S$，且 $R$ 中有 $(3,1)$，得
+\[
+(1,1)
+\]
+
+由 $(2,2)\in S$，且 $R$ 中有 $(2,1),(2,2)$，得
+\[
+(2,1),(2,2)
+\]
+
+所以
+\[
+R\circ S=\{(1,1),(1,2),(2,1),(2,2)\}
+\]
+
+再求 $R^3$。
+
+先求
+\[
+R^2=R\circ R
+\]
+由
+\[
+R=\{(1,1),(2,1),(3,1),(1,2),(2,2)\}
+\]
+可得
+\[
+R^2=\{(1,1),(1,2),(2,1),(2,2),(3,1),(3,2)\}
+\]
+
+于是
+\[
+R^3=R^2\circ R=\{(1,1),(1,2),(2,1),(2,2),(3,1),(3,2)\}
+\]
+
+\end{document}
